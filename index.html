@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한울타리 | 교육봉사 동아리</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      }
+      .hero-bg {
+        background-image: radial-gradient(circle at top left, rgba(191, 219, 254, 0.35), transparent 32%),
+          radial-gradient(circle at bottom right, rgba(250, 229, 210, 0.45), transparent 28%),
+          linear-gradient(180deg, #eff6ff 0%, #fdf2e9 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div class="min-h-screen hero-bg">
+      <header class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div>
+          <p class="text-2xl font-semibold text-slate-800">한울타리</p>
+          <p class="text-sm text-slate-500">교육봉사 동아리 공식 홈페이지</p>
+        </div>
+        <nav class="space-x-6 text-sm font-medium text-slate-700">
+          <a href="#home" class="hover:text-sky-600">홈</a>
+          <a href="#about" class="hover:text-sky-600">동아리 소개</a>
+          <a href="#news" class="hover:text-sky-600">공지사항</a>
+          <a href="#gallery" class="hover:text-sky-600">사진첩</a>
+          <a href="#contact" class="hover:text-sky-600">문의하기</a>
+        </nav>
+      </header>
+
+      <main class="max-w-7xl mx-auto px-6 pb-16">
+        <section id="home" class="grid gap-10 lg:grid-cols-2 items-center pt-12">
+          <div class="space-y-6">
+            <p class="inline-flex items-center px-4 py-2 rounded-full bg-sky-100 text-sky-700 text-sm font-semibold">따뜻한 교육봉사의 시작</p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight text-slate-900">아이들과 함께 커가는 우리, <span class="text-sky-600">한울타리</span></h1>
+            <p class="max-w-xl text-slate-600 text-base sm:text-lg">한울타리는 아이들의 가능성을 키우고 삶에 작은 희망을 더하는 교육봉사 동아리입니다. 함께 나누는 배움과 따뜻함으로 우리 모두가 성장하는 공간입니다.</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="#about" class="inline-flex items-center justify-center rounded-full bg-sky-600 px-6 py-3 text-white shadow-sm hover:bg-sky-700">동아리 소개 보기</a>
+              <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-slate-700 hover:bg-slate-100">문의하기</a>
+            </div>
+          </div>
+          <div class="relative rounded-[32px] overflow-hidden bg-white shadow-[0_30px_80px_rgba(14,165,233,0.12)]">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(56,189,248,0.18),transparent_25%),radial-gradient(circle_at_80%_30%,rgba(250,204,21,0.16),transparent_22%)]"></div>
+            <div class="relative p-10 sm:p-14">
+              <div class="h-80 rounded-[28px] bg-gradient-to-br from-sky-200 via-slate-100 to-amber-100 flex items-center justify-center text-slate-700">
+                <div class="text-center px-6">
+                  <p class="text-sm uppercase tracking-[0.35em] text-slate-500">이미지 영역</p>
+                  <p class="mt-4 text-lg font-semibold">아이들과 함께하는 따뜻한 순간</p>
+                  <p class="mt-3 text-slate-500">활동 모습과 웃음이 가득한 메인 화면</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-16 bg-white/80 rounded-[32px] p-8 shadow-sm border border-slate-200">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">활동 수치</p>
+              <h2 class="mt-3 text-2xl font-semibold text-slate-900">우리의 발자취를 숫자로 만나보세요</h2>
+            </div>
+            <p class="text-slate-600 max-w-xl">한울타리의 활동량과 참여를 한눈에 확인할 수 있는 수치입니다. 실질적인 봉사 시간과 함께 성장하는 커뮤니티입니다.</p>
+          </div>
+          <div class="mt-10 grid gap-6 sm:grid-cols-3">
+            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 text-center">
+              <p class="text-5xl font-bold text-sky-600">1,280+</p>
+              <p class="mt-3 text-sm text-slate-500">누적 봉사 시간</p>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 text-center">
+              <p class="text-5xl font-bold text-amber-500">320</p>
+              <p class="mt-3 text-sm text-slate-500">교육 대상 아동 수</p>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 text-center">
+              <p class="text-5xl font-bold text-teal-600">45</p>
+              <p class="mt-3 text-sm text-slate-500">회원 수</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="news" class="mt-16 bg-white/80 rounded-[32px] p-8 shadow-sm border border-slate-200">
+          <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">공지사항</p>
+              <h2 class="mt-3 text-2xl font-semibold text-slate-900">최근 공지 목록</h2>
+            </div>
+            <p class="rounded-full bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-700">필독 공지는 항상 상단에 표시됩니다</p>
+          </div>
+          <div class="mt-8 overflow-x-auto">
+            <table class="min-w-full text-left">
+              <thead class="bg-slate-50">
+                <tr>
+                  <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">번호</th>
+                  <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">제목</th>
+                  <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">작성일</th>
+                  <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">조회수</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200">
+                <tr data-notice-id="1" aria-expanded="false" class="cursor-pointer bg-amber-50 hover:bg-amber-100 transition-colors duration-150">
+                  <td class="px-4 py-4 font-semibold text-slate-900">1</td>
+                  <td class="px-4 py-4 text-slate-700 flex items-center gap-3">
+                    <span class="rounded-full bg-amber-200 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.25em] text-amber-700">필독</span>
+                    <span>봄맞이 학습지원 봉사 일정 안내</span>
+                  </td>
+                  <td class="px-4 py-4 text-slate-500">2026-03-15</td>
+                  <td class="px-4 py-4 text-slate-500">120</td>
+                </tr>
+                <tr class="notice-detail hidden bg-slate-50">
+                  <td colspan="4" class="px-4 py-5 text-slate-600">
+                    <p class="font-semibold text-slate-900">봄맞이 학습지원 봉사 일정 안내</p>
+                    <p class="mt-3 text-sm leading-7">4월 첫째 주부터 매주 토요일 10시부터 13시까지 진행되는 학습지원 봉사 일정입니다. 장소는 한울타리 교육센터이며, 참가를 원하시는 분은 동아리 내부 공지 게시판을 통해 신청해주세요.</p>
+                  </td>
+                </tr>
+                <tr data-notice-id="2" aria-expanded="false" class="cursor-pointer bg-white hover:bg-slate-50 transition-colors duration-150">
+                  <td class="px-4 py-4 font-semibold text-slate-900">2</td>
+                  <td class="px-4 py-4 text-slate-700">여름방학 프로그램 봉사자 모집</td>
+                  <td class="px-4 py-4 text-slate-500">2026-03-10</td>
+                  <td class="px-4 py-4 text-slate-500">87</td>
+                </tr>
+                <tr class="notice-detail hidden bg-slate-50">
+                  <td colspan="4" class="px-4 py-5 text-slate-600">
+                    <p class="font-semibold text-slate-900">여름방학 프로그램 봉사자 모집</p>
+                    <p class="mt-3 text-sm leading-7">여름방학 기간 동안 진행되는 방과후 학습 지원과 창의 활동 프로그램에 함께할 봉사자를 모집합니다. 교육과 활동 모두 함께 준비하며, 관심 있는 회원은 신청 양식을 작성해주세요.</p>
+                  </td>
+                </tr>
+                <tr data-notice-id="3" aria-expanded="false" class="cursor-pointer bg-white hover:bg-slate-50 transition-colors duration-150">
+                  <td class="px-4 py-4 font-semibold text-slate-900">3</td>
+                  <td class="px-4 py-4 text-slate-700">후원 물품 전달 일정 변경 공지</td>
+                  <td class="px-4 py-4 text-slate-500">2026-03-02</td>
+                  <td class="px-4 py-4 text-slate-500">63</td>
+                </tr>
+                <tr class="notice-detail hidden bg-slate-50">
+                  <td colspan="4" class="px-4 py-5 text-slate-600">
+                    <p class="font-semibold text-slate-900">후원 물품 전달 일정 변경 공지</p>
+                    <p class="mt-3 text-sm leading-7">후원 물품 전달 일정이 3월 22일로 변경되었습니다. 참여 가능한 회원은 일정에 맞춰 준비해주시고, 추가 문의는 담당자에게 연락 바랍니다.</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mt-6 text-sm text-slate-500">목록을 클릭하면 해당 공지의 상세 내용을 펼쳐서 확인할 수 있습니다.</p>
+        </section>
+
+        <section id="gallery" class="mt-16 bg-white/80 rounded-[32px] p-8 shadow-sm border border-slate-200">
+          <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">사진첩</p>
+              <h2 class="mt-3 text-2xl font-semibold text-slate-900">한울타리 활동 사진</h2>
+            </div>
+            <p class="text-sm text-slate-600 max-w-xl">사진을 클릭하면 큰 화면으로 활동 모습을 자세히 확인할 수 있습니다.</p>
+          </div>
+          <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <button type="button" data-gallery-image="https://via.placeholder.com/1200x900?text=활동+1" data-gallery-alt="지역아동센터 책읽기 활동 사진" class="group relative overflow-hidden rounded-[28px] bg-slate-100 shadow-sm transition hover:-translate-y-1">
+              <img src="https://via.placeholder.com/600x400?text=활동+1" alt="지역아동센터 책읽기 활동" class="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-slate-950/10 opacity-0 transition duration-300 group-hover:opacity-100"></div>
+              <div class="absolute inset-x-0 bottom-0 p-4 opacity-0 transition duration-300 group-hover:opacity-100">
+                <div class="rounded-3xl bg-white/90 p-4 backdrop-blur-sm">
+                  <p class="text-xs uppercase tracking-[0.28em] text-slate-500">2026.03.12</p>
+                  <p class="mt-2 font-semibold text-slate-900">지역아동센터 책읽기 활동</p>
+                </div>
+              </div>
+            </button>
+            <button type="button" data-gallery-image="https://via.placeholder.com/1200x900?text=활동+2" data-gallery-alt="학습 멘토링 활동 사진" class="group relative overflow-hidden rounded-[28px] bg-slate-100 shadow-sm transition hover:-translate-y-1">
+              <img src="https://via.placeholder.com/600x400?text=활동+2" alt="학습 멘토링 활동" class="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-slate-950/10 opacity-0 transition duration-300 group-hover:opacity-100"></div>
+              <div class="absolute inset-x-0 bottom-0 p-4 opacity-0 transition duration-300 group-hover:opacity-100">
+                <div class="rounded-3xl bg-white/90 p-4 backdrop-blur-sm">
+                  <p class="text-xs uppercase tracking-[0.28em] text-slate-500">2026.02.28</p>
+                  <p class="mt-2 font-semibold text-slate-900">학습 멘토링 활동</p>
+                </div>
+              </div>
+            </button>
+            <button type="button" data-gallery-image="https://via.placeholder.com/1200x900?text=활동+3" data-gallery-alt="창의 체험 활동 사진" class="group relative overflow-hidden rounded-[28px] bg-slate-100 shadow-sm transition hover:-translate-y-1">
+              <img src="https://via.placeholder.com/600x400?text=활동+3" alt="창의 체험 활동" class="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-slate-950/10 opacity-0 transition duration-300 group-hover:opacity-100"></div>
+              <div class="absolute inset-x-0 bottom-0 p-4 opacity-0 transition duration-300 group-hover:opacity-100">
+                <div class="rounded-3xl bg-white/90 p-4 backdrop-blur-sm">
+                  <p class="text-xs uppercase tracking-[0.28em] text-slate-500">2026.01.18</p>
+                  <p class="mt-2 font-semibold text-slate-900">창의 체험 활동</p>
+                </div>
+              </div>
+            </button>
+            <button type="button" data-gallery-image="https://via.placeholder.com/1200x900?text=활동+4" data-gallery-alt="후원물품 전달 활동 사진" class="group relative overflow-hidden rounded-[28px] bg-slate-100 shadow-sm transition hover:-translate-y-1">
+              <img src="https://via.placeholder.com/600x400?text=활동+4" alt="후원물품 전달 활동" class="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-slate-950/10 opacity-0 transition duration-300 group-hover:opacity-100"></div>
+              <div class="absolute inset-x-0 bottom-0 p-4 opacity-0 transition duration-300 group-hover:opacity-100">
+                <div class="rounded-3xl bg-white/90 p-4 backdrop-blur-sm">
+                  <p class="text-xs uppercase tracking-[0.28em] text-slate-500">2026.01.05</p>
+                  <p class="mt-2 font-semibold text-slate-900">후원물품 전달 활동</p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </section>
+
+        <section id="about" class="mt-16 grid gap-10 lg:grid-cols-[1.2fr_0.8fr] items-center">
+          <div class="space-y-6">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">동아리 소개</p>
+            <h2 class="text-3xl font-semibold text-slate-900">한울타리와 함께하는 교육봉사의 가치</h2>
+            <p class="text-slate-600 leading-8">한울타리는 교육을 통해 아이들의 자신감과 꿈을 응원합니다. 정기적인 학습 지원, 놀이 중심 프로그램, 정서적 지지 활동을 통해 아이들이 안전하게 성장할 수 있는 환경을 만듭니다.</p>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-3xl bg-sky-50 p-6">
+                <h3 class="font-semibold text-slate-900">따뜻한 학습 지원</h3>
+                <p class="mt-2 text-slate-600 text-sm">맞춤형 학습 지도와 멘토링으로 아이들의 학습 동기를 높입니다.</p>
+              </div>
+              <div class="rounded-3xl bg-amber-50 p-6">
+                <h3 class="font-semibold text-slate-900">건강한 정서 케어</h3>
+                <p class="mt-2 text-slate-600 text-sm">놀이와 소통을 통해 정서적 안정과 사회성을 함께 키웁니다.</p>
+              </div>
+              <div class="rounded-3xl bg-emerald-50 p-6">
+                <h3 class="font-semibold text-slate-900">지역사회 연대</h3>
+                <p class="mt-2 text-slate-600 text-sm">지역과 협력하여 더 많은 아이들에게 봉사의 기회를 제공합니다.</p>
+              </div>
+              <div class="rounded-3xl bg-violet-50 p-6">
+                <h3 class="font-semibold text-slate-900">지속 가능한 활동</h3>
+                <p class="mt-2 text-slate-600 text-sm">꾸준한 봉사와 체계적인 운영으로 신뢰받는 동아리를 만듭니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-[32px] bg-slate-100 p-10 shadow-sm">
+            <p class="text-slate-700 text-base leading-7">한울타리는 단순한 봉사 활동이 아닌, 아이들과 함께 꿈을 키워가는 동아리입니다. 회원 모두가 서로를 응원하며, 작은 손길 하나하나가 큰 변화를 만드는 믿음으로 활동합니다. 함께라서 더 따뜻한 한울타리의 이야기가 지금 이곳에서 시작됩니다.</p>
+          </div>
+        </section>
+
+        <section id="contact" class="mt-16 bg-white/80 rounded-[32px] p-8 shadow-sm border border-slate-200">
+          <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">문의하기</p>
+              <h2 class="mt-3 text-2xl font-semibold text-slate-900">한울타리에 궁금한 점을 남겨주세요</h2>
+            </div>
+            <p class="text-sm text-slate-600 max-w-xl">문의는 최대한 빠르게 확인 후 답변드리겠습니다.</p>
+          </div>
+          <div class="mt-10 grid gap-10 lg:grid-cols-[1.4fr_0.9fr]">
+            <form id="contactForm" class="space-y-5 rounded-[28px] bg-slate-50 p-8 shadow-sm">
+              <div>
+                <label for="name" class="mb-2 block text-sm font-medium text-slate-700">이름</label>
+                <input id="name" type="text" class="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100" placeholder="이름을 입력해 주세요" required />
+              </div>
+              <div>
+                <label for="phone" class="mb-2 block text-sm font-medium text-slate-700">연락처</label>
+                <input id="phone" type="tel" class="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100" placeholder="핸드폰 번호를 입력해 주세요" required />
+              </div>
+              <div>
+                <label for="email" class="mb-2 block text-sm font-medium text-slate-700">이메일</label>
+                <input id="email" type="email" class="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100" placeholder="example@mail.com" required />
+              </div>
+              <div>
+                <label for="message" class="mb-2 block text-sm font-medium text-slate-700">문의 내용</label>
+                <textarea id="message" rows="5" class="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100" placeholder="문의 내용을 입력해 주세요" required></textarea>
+              </div>
+              <button type="submit" class="w-full rounded-full bg-sky-600 px-6 py-3 text-white text-sm font-semibold shadow-sm hover:bg-sky-700">제송하기</button>
+            </form>
+            <div class="space-y-6 rounded-[28px] bg-slate-100 p-8 shadow-sm">
+              <div class="rounded-3xl bg-white p-6 shadow-sm">
+                <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">동아리방 위치</p>
+                <div class="mt-4 h-48 rounded-3xl bg-slate-200 text-center text-slate-500 leading-[12rem]">지도 플레이스홀더</div>
+              </div>
+              <div class="rounded-3xl bg-white p-6 shadow-sm">
+                <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">연락처</p>
+                <p class="mt-3 text-slate-700">Email: <a href="mailto:hanultari@example.com" class="text-sky-600 hover:underline">hanultari@example.com</a></p>
+              </div>
+              <div class="rounded-3xl bg-white p-6 shadow-sm">
+                <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">SNS</p>
+                <div class="mt-4 flex items-center gap-4 text-slate-700">
+                  <a href="#" class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-50 text-slate-700 hover:bg-slate-200">IG</a>
+                  <a href="#" class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-50 text-slate-700 hover:bg-slate-200">FB</a>
+                  <a href="#" class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-50 text-slate-700 hover:bg-slate-200">X</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/75 p-6">
+      <button id="lightboxClose" type="button" class="absolute top-6 right-6 inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-slate-900 shadow-sm hover:bg-white">×</button>
+      <img id="lightboxImage" src="" alt="활동 사진 확대 보기" class="max-h-[90vh] max-w-full rounded-[28px] shadow-2xl" />
+    </div>
+    <script>
+      const noticeRows = document.querySelectorAll('tr[data-notice-id]');
+      noticeRows.forEach((row) => {
+        row.addEventListener('click', () => {
+          const detailRow = row.nextElementSibling;
+          const isOpen = !detailRow.classList.contains('hidden');
+          document.querySelectorAll('.notice-detail').forEach((detail) => detail.classList.add('hidden'));
+          document.querySelectorAll('tr[data-notice-id]').forEach((item) => item.setAttribute('aria-expanded', 'false'));
+          if (!isOpen) {
+            detailRow.classList.remove('hidden');
+            row.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+
+      const galleryButtons = document.querySelectorAll('[data-gallery-image]');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImage = document.getElementById('lightboxImage');
+      const lightboxClose = document.getElementById('lightboxClose');
+
+      galleryButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const src = button.getAttribute('data-gallery-image');
+          const alt = button.getAttribute('data-gallery-alt') || '활동 사진';
+          lightboxImage.src = src;
+          lightboxImage.alt = alt;
+          lightbox.classList.remove('hidden');
+        });
+      });
+
+      lightboxClose.addEventListener('click', () => {
+        lightbox.classList.add('hidden');
+      });
+
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox) {
+          lightbox.classList.add('hidden');
+        }
+      });
+
+      const contactForm = document.getElementById('contactForm');
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        alert('문의가 정상적으로 접수되었습니다');
+        contactForm.reset();
+      });
+    </script>
+  </body>
+</html>
